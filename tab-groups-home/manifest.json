@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Groups Home Page",
+  "version": "1.0",
+  "description": "Display Chrome tab groups and tabs in a custom page",
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tab Groups Home"
+  }
+}
